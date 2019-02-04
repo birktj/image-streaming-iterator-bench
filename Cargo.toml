@@ -1,0 +1,11 @@
+[package]
+name = "image-stream-loading-benchmark"
+version = "0.1.0"
+authors = ["Birk Tjelmeland <birktjelmeland@yahoo.no>"]
+edition = "2018"
+
+[dependencies.image]
+version = "0.21"
+features = ["png"]
+git = "https://github.com/birktj/image"
+branch = "incremental_png_loading"
